@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@300;400;500;600&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+    background: rgba(0,0,0, 0.01);
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.first{
+	background: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.menu{
+	text-align: right;
+	margin-top: 20px;
+}
+.menu-ber{
+	display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.icon-right{
+	text-align: right;
+}
+.menu-item img{
+	vertical-align: middle;
+}
+.menu-item span{
+	font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    vertical-align: middle;
+    padding-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px; 
+}
+.menu ul li{
+	display: inline-block;
+	margin-left: 50px;
+}
+.menu ul li a{
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.text-t{
+	display: table-cell;
+    width: 100%;
+    height: 70vh;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.text-t p{
+	font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-style: dashed;
+    border-width: 2px;
+    padding: 5px 15px;
+}
+.text-t h1{
+	font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+    font-size: 90px;
+    text-shadow: 2px 2px white;
+    letter-spacing: 5px;
+}
+.text-t h2{
+	font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-shadow: 2px 2px white;
+    letter-spacing: 5px;
+}
+
+
+
+
+
+
+/*For banner*/
+
+.burger-post{
+	width: 100%;
+}
+.post{
+	display: flex;
+	justify-content: space-between;
+}
+.pic-post1,.pic-post2{
+	padding: 15px;
+}
+.pic-post1 img{
+	position: relative;
+	width: 100%;
+}
+.pic-post2 .up img{
+	position: relative;
+    width: 92%;
+    margin-bottom: 61px;
+}
+.pic-post2 .down img{
+	position: relative;
+    width: 92%;
+}
+.text-img1{
+	position: absolute;
+    bottom: -20%;
+    left: 10%;
+}
+.text-img1 h3{
+	font-family: 'Bebas Neue', cursive;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.text-img1 h1{
+	font-family: 'Bebas Neue', cursive;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.text-img2 h1{
+	font-family: 'Bebas Neue', cursive;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.text-img2 h3{
+	font-family: 'Bebas Neue', cursive;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.text-img2{
+	position: absolute;
+    left: 52.4%;
+    bottom: -26%;
+}
+.text-img3 h3{
+	font-family: 'Bebas Neue', cursive;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.text-img3 h1{
+	font-family: 'Bebas Neue', cursive;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.text-img3{
+	position: absolute;
+    bottom: -56%;
+    right: 37%;
+}
+.btn{
+	vertical-align: middle;
+	text-align: center;
+    margin: 50px;
+}
+.btn button{
+	font-family: 'Bebas Neue', cursive;
+    padding: 10px 10px;
+    font-size: 20px;
+    border: none;
+    background-color: #ffc045;
+    outline: none; 
+}
+.btn h1{
+	font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+    margin: 30px;
+}
+.btn p{
+	color: #3d2514;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    font-size: 13px;
+    width: 95%;
+}
+
+
+
+
+
+
+/*Sell burger form here*/
+
+.sell-burger{
+	width: 100%;
+}
+.big-burger{
+	display: flex;
+	justify-content: space-between;
+	margin: 70px auto;
+}
+.pic-part1 img{
+	width: 95%;
+}
+.text-part1{
+	margin-right: 50px;
+    text-align: center;
+}
+.text-part1 h1{
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+}
+.text-part1 p{
+	font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    font-size: 13px;
+}
+.text-part1 button{
+	font-family: 'Bebas Neue', cursive;
+    padding: 5px 40px;
+    font-size: 22px;
+    background: red;
+    border: none;
+    outline: none;
+}
+.text-part1 button a{
+	color: white;
+}
+
+
+
+
+
+
+/*SLDIER FORM HERE*/
+
+
+.slider{
+	width: 100%;
+	margin: 50px 0;
+}
+.contant{
+	display: flex;
+    justify-content: space-between;
+	margin: 20px 20px;
+	padding: 20px 20px;
+	box-shadow: 11px 5px 12px 0px #b5b3b3;
+}
+.text{
+	margin: 50px;
+}
+.text h3{
+	font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.text h1{
+	font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.text p{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 22px;
+	color: #3d2514;
+}
+.image img{
+	width: 85vh;
+}
+
+
+
+
+
+
+/*Form part*/
+
+
+.form{
+    background-image: url(../img/burder-s.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.textt{
+	text-align: center;
+    margin: 10px;
+    line-height: 50px;
+}
+.textt h3{
+	font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: #3d2514;
+}
+.textt h1{
+	font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    letter-spacing: 5px;
+}
+.take-input{
+	width: 100%;
+}
+.for-input{
+	width: 80%;
+	margin: 0px auto;
+}
+.start-input{
+	width: 80%;
+	float: middle;
+	margin: 0px auto;
+}
+.part1{
+	width: 50%;
+	float: left;
+}
+.part2{
+	width: 50%;
+	float: right;
+}
+.part1 form input {
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+    width: 85%;
+    outline: none;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+}
+.part2 form input {
+    display: block;
+    margin: 40px auto;
+    padding: 5px;
+    width: 85%;
+    outline: none;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+}
+.part2 form button{
+    display: block;
+    margin: 40px auto;
+    padding: 12px 98px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.part2 form button a{
+	color: white;
+    font-size: 13px;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ICON PART FROM HERE*/
+
+
+.iicon{
+    width: 100%;
+    height: 70vh;
+	
+}
+.container{
+	width: 1140px;
+	margin: auto;
+
+}
+.start{
+	width: 100%;
+	margin: 20px auto;
+    background-image: url(../img/bottom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.first-part{
+	margin-bottom: 70px;
+    margin-left: 20px;
+}
+.first-part img{
+
+	margin-top: 60px;
+}
+.logo-div{
+    margin-right: 60px;
+}
+.second-part p{
+	font-family: 'Montserrat', sans-serif;
+    width: 45%;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    line-height: 22px;
+    font-size: 13px;
+    color: white;
+}
+.second-part {
+	display: flex;
+    justify-content: space-between;
+}
+.logo-div{
+
+}
+.gmail-icon1{
+	display: flex;
+    margin-top: 25px;
+    color: white;
+}
+.gmail-icon1 h1{
+	font-family: 'Bebas Neue', cursive;
+    color: black;
+    padding-left: 30px;
+    padding-right: 40px;
+    font-size: 20px;
+    color: white;
+}
+.gmail-icon2{
+	display: flex;
+    margin-top: 20px;
+    color: white;
+}
+.gmail-icon2 h1{
+	font-family: 'Bebas Neue', cursive;
+    color: black;
+    padding-left: 25px;
+    font-size: 20px;
+    color: white;
+}
+.last-part{
+	display: flex;
+    justify-content: space-between;
+    margin: 80px auto;
+}
+.icon-here ul li {
+    display: inline-block;
+    border: 1px solid black;
+    margin-right: 10px;
+    padding: 5px 7px;
+    background: white;
+    border-radius: 100%;
+}
+.last-part h3{
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.icon-here{
+    margin-bottom: 20px;
+}
